@@ -4,7 +4,6 @@ import _ from 'lodash';
 import Highlighter from 'react-highlight-words'
 
 let goToPage = 0;
-let ls_json;
 
 class Search extends Component {
 
@@ -15,7 +14,7 @@ class Search extends Component {
       books: [],
       totalItems: null,
       isloadingList: true,
-      favBooks: [],
+      favBooks:JSON.parse(localStorage.getItem("ls_favoriteBooks")) || [],
       isFav:false
     };
   }
@@ -177,14 +176,7 @@ class Search extends Component {
     });
 
     // FAVORITE LIST
-
-    if (JSON.parse(localStorage.getItem("ls_favoriteBooks")) === null) {
-      ls_json = favBooks;
-    }else{
-      ls_json = JSON.parse(localStorage.getItem("ls_favoriteBooks"));
-    }
-
-    let favoriteBooksList = ls_json.map(function(favBooks) {
+    let favoriteBooksList = favBooks.map(function(favBooks) {
       return (
         <li className="book-item" bookid={favBooks.bookId} onClick={ (e) => { this.choseenBook(favBooks.bookId) } }>
           <span>{ favBooks.bookName }</span>

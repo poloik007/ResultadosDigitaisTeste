@@ -10,7 +10,7 @@
 Link do App funcionando: https://poloik007.github.io
 
 ### Arquitetura e UI
-App gerado com ``react generate-react-app`` para possuir uma boa base de frameworks e scripts como ``npm start``,``npm test``, ``npm run build``
+App foi construido com ReactJS, aproveitei essa oportunidade para me aprofundar um pouco nessa ferramenta, o App gerado com ``react generate-react-app`` para possuir uma boa base de frameworks e scripts como ``npm start``,``npm test``, ``npm run build``
 
 Foi utilizado para **UI**, _Twitter BootStrap v4_ e _Font Awesome_.
 
@@ -25,4 +25,4 @@ Não tive tempo para incrementar TDD neste App, devo dizer que o principal motiv
 
 ### Bundle
 
-O **Bundle** atual e realizado com o script do _generate-react-app_ que por sua vez realiza os testes e comprime os arquivos. Esta também sendo utilizado o _gh-pages_ para gerar um bundle automático ao
+O **Bundle** atual e realizado com o script do _generate-react-app_ que por sua vez realiza os testes e comprime os arquivos. Esta também sendo utilizado o _gh-pages_ para gerar um bundle automático ao executar ``npm run deploy``.
