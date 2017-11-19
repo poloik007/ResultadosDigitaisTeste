@@ -1,0 +1,106 @@
+#root{
+  padding:30px 0;
+  width:100%;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e696+0,d1d360+100;Wax+3D */
+  background: #e5e696; /* Old browsers */
+  background: -moz-linear-gradient(top, #e5e696 0%, #d1d360 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e5e696 0%,#d1d360 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e5e696 0%,#d1d360 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=0 ); /* IE6-9 */
+}
+
+.sidebar-module{
+  background:white;
+  padding:15px;
+  border-radius: 7px;
+}
+
+.search-box{
+  width:100%;
+  padding:5px;
+  font-size:30px;
+  font-weight:bold;
+  border: none;
+  border-bottom:1px solid #666;
+  outline: none;
+}
+
+.wrapper{
+  position:relative;
+}
+
+.wrapper .fa{
+  position: absolute;
+  font-size:30px;
+  color:#888;
+  top: 12px;
+  right: 10px;
+}
+
+.btn-favorite{
+  width: 100%;
+  margin-top: 15px;
+}
+
+#book-list{
+  padding:0px;
+  margin-top:15px;
+}
+
+#book-list img{
+  margin: 0px auto;
+  width: 100%;
+}
+
+.book-item{
+  border:1px solid #ccc;
+  list-style:none;
+  padding:10px;
+  font-size: 14px;
+  cursor:pointer;
+  transition: all .3s ease;
+}
+
+.book-item:hover{
+  background:#e5e696;
+}
+.book-item:active{
+  background:#d1d360;
+}
+
+.book-item i{
+  float:right;
+  font-size:27px;
+  color:gray;
+  transition: all .3s ease;
+  max-width:20%;
+}
+
+.book-item span{
+  width:80%;
+  display: inline-block;
+}
+
+.book-item i:hover{
+  color:black;
+}
+
+.blog-pagination{
+  padding-bottom:15px;
+}
+
+.blog-pagination .btn{
+  margin:0px 3px;
+}
+
+.book-main{
+  background:white;
+  padding:15px;
+  border-radius: 7px;
+}
+
+.highlight{
+  font-weight:bold;
+  background:transparent;
+}
