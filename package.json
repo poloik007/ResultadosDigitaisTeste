@@ -7,7 +7,7 @@
     "classnames": "^2.2.5",
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-highlight-words": "^0.10.0",
