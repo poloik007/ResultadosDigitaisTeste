@@ -9,7 +9,7 @@
     "gh-pages": "^1.1.0",
     "lodash": "^4.17.4",
     "react": "^16.1.1",
-    "react-dom": "^16.1.1",
+    "react-dom": "^16.1.2",
     "react-highlight-words": "^0.10.0",
     "react-scripts": "1.0.17",
     "superagent": "^3.8.1"
